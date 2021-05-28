@@ -2,7 +2,7 @@ name: Launch Moralis dev
 on: [push]
 jobs:
   launch_moralis:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     steps:
       - uses: actions/checkout@v2
       - name: Set Node.js 10.x
