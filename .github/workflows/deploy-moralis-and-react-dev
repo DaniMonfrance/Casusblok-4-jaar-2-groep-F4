@@ -38,4 +38,4 @@ jobs:
       - name: serve front end
         shell: bash
         working-directory: ruilwinkel
-        run: serve -s build
+        run: serve -s build 
