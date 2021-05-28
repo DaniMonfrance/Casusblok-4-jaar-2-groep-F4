@@ -16,7 +16,7 @@ jobs:
         run: npm install
       - name: install serve
         working-directory: ruilwinkel
-        run: npm install serve
+        run: npm install -g serve
       - name: build front end
         shell: bash
         working-directory: ruilwinkel
